@@ -1,0 +1,145 @@
+{
+    "Environmental Sensor": [
+      "Temperature",
+      "Humidity",
+      "Pressure",
+      "Light",
+      "Air Quality"
+    ],
+    "Motion Sensor": [
+      "Accelerometer",
+      "Gyroscope",
+      "Magnetometer",
+      "Proximity "
+    ],
+    "Position Sensor": [
+      "GPS",
+      "Compass"
+    ],
+    "Biometric Sensor": [
+      "Fingerprint",
+      "Iris Scanner",
+      "Facial Recognition",
+      "Heart Rate"
+    ],
+    "Image and Video Sensor": [
+      "Camera",
+      "Depth",
+      "IR  (Infrared)"
+    ],
+    "Sound Sensor": [
+      "Microphone",
+      "Noise"
+    ],
+    "Chemical Sensor": [
+      "Gas",
+      "Smoke"
+    ],
+    "Touch Sensor": [
+      "Capacitive Touch",
+      "Resistive Touch"
+    ],
+    "Motion Detection Sensor": [
+      "Motion Detector",
+      "Occupancy"
+    ],
+    "Proximity Sensor": [
+      "Proximity",
+      "Distance"
+    ],
+    "Motor":[
+        "DC motor",
+        "Stepper motor",
+        "BLDC motor",
+        "Servo motor" 
+    ],
+    "Sensors":[
+      "Temperature",
+      "Humidity",
+      "Pressure",
+      "Light",
+      "Air Quality",
+      "Accelerometer",
+      "Gyroscope",
+      "Magnetometer",
+      "Proximity",
+      "GPS",
+      "Compass",
+      "Fingerprint",
+      "Iris Scanner",
+      "Heart Rate",
+      "Camera",
+      "Depth",
+      "IR  (Infrared)",
+      "Microphone",
+      "Noise",
+      "Gas",
+      "Smoke",
+      "Capacitive Touch",
+      "Resistive Touch",
+      "Motion Detector",
+      "Occupancy",
+      "Proximity",
+      "Distance",
+      "Radar",
+      "Altemeter"
+    ],
+    "Computer":{"singleboard_computer":[
+        "Raspberry-pi",
+        "Khadas",
+        "Orange-pi",
+        "Banapi",
+        "NVIDIA Jetson",
+        "generic-singleboard"
+    ],
+    "generic-computer":
+    ["Regular computer PC or Laptop mainboard"]    
+    },
+    "Feedback sensor":["Encoder","Potentiometer","Optical Encoder","Magenetic Encoder"],
+    "Encoder":["Potentiometer","Optical Encoder","Magnetic Encoder"],
+    "Wheel-Based Odometry Sensors": {
+    "Rotary Encoders": ["Optical Rotary Encoders", "Magnetic Rotary Encoders"],
+    "Wheel Odometry Sensors": ["Wheel Odometry", "Incremental Encoders"],
+    "Shaft Encoders": ["Shaft Encoders for rotary motion measurements"]
+    },
+    "Inertial-Based Odometry Sensors": {
+    "Accelerometers": ["Measure acceleration"],
+    "Gyroscopes": ["Measure angular velocity"],
+    "IMU (Inertial Measurement Unit)": ["Combines accelerometers and gyroscopes for 3D motion information"],
+    "Magnetometers": ["Measure strength and direction of a magnetic field"]
+    },
+    "Additional Sensors for Odometry": {
+    "GPS": ["Provides absolute position information"],
+    "Visual Odometry": ["Uses cameras for feature tracking and motion estimation"],
+    "Laser Odometry": ["Uses LIDAR for distance measurement and position tracking"],
+    "Ultrasonic Sensors": ["Measure time-of-flight of ultrasonic waves for distance estimation"],
+    "Wheel Odometry with Odometry Wheels": ["Specialized wheels with built-in sensors for precise motion measurement"],
+    "Encoder Wheels": ["Wheels with integrated encoders for accurate rotation measurement"]
+    },
+    "Hardware":{
+      "Motor":["DC motor driver","BLDC motor driver","Stepper motor driver","Servo motor driver"],  
+      "Computer":[
+        "Raspberry-pi",
+        "Khadas",
+        "Orange-pi",
+        "Banapi",
+        "NVIDIA Jetson",
+        "generic-singleboard",
+        "Regular computer PC or Laptop mainboard" 
+     ]   
+    },
+    "Display LCD Display":["Display","LED","LCD","OLED","MOLED","Touch screen","TFT screen color oled","TFT","IPS"],
+    "Software":["Data","Data Center","Data Storage","Data processing","Data Analytics","Data Visualization","Data Mining","Data Science","Cloud","Cloud Computing","Cloud storage"],
+    "AI":["Image processing","Machine learning","Deep learning","Path planning","Generative Chat agent"],
+    "Perception":["Image processing"],
+    "Intelligence":["Image processing","Machine learning","Deep learning","Path planning","Generative Chat agent"],
+    "Power system":["Battery","Battery management system","BMS","power_control","Power","power"], 
+    "Power":["Battery","Battery management system","BMS","power_control","Power","power"],
+    "Communication":["Cellular LTE module","GPRS module","Wi-Fi"],   
+    "Microcontroller":["Atmega","Arduino","STMicroelectronics","TI"],   
+    "Controller":["Microcontroller","Computer","Auto pilot","Flight controller"], 
+    "Control":["Microcontroller","Computer","Auto pilot","Flight controller"],
+    "Auto pilot":["Navigation system","Microcontroller","Gyroscope","Electronics Speed Controller"],
+    "Flight control":["Microcontroller","Gyroscope","Electronics Speed Controller"],
+    "Driver":["DC motor driver","Stepper motor driver","BLDC motor driver"]         
+  }
